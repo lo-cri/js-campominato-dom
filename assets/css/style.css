@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 70px;
+}
+
+header div:first-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mrg-20{
+    margin:  20px 15px;    
+}
+
+.btn-outline-secondary{
+    inline-size: 100px;
+}
+
+main{
+    margin: 50px 0;
+    padding: 50px;
+}
+
+.container{
+    width: auto;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc( 100% / 10);
+    border: 1px solid black;
+    aspect-ratio: 1;
+    /* background-color: #8593c6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: white;
+    padding: 20px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
